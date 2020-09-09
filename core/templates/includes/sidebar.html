@@ -1,0 +1,39 @@
+
+    <div class="sidebar">
+      <div class="sidebar-wrapper">
+
+        <div class="logo">
+          <a target="_blank" href="#" class="simple-text logo-mini">
+            選單
+          </a>
+          <a target="_blank" href="#" class="simple-text logo-normal">
+            LIST
+          </a>
+        </div>
+
+        {% if user.is_authenticated %}
+        <ul class="nav">
+          <li class="active ">
+            <a href="/">
+              <i class="tim-icons icon-chart-pie-36"></i>
+              <h4>統計結果</h4>
+            </a>
+          </li>
+          <li>
+            <a href="error-404.html">
+              <i class="tim-icons icon-single-02"></i>
+              <h4>查詢時段</h4>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="tim-icons icon-bell-55"></i>
+              <h4>我想看現場</h4>
+            </a>
+          </li>
+
+        </ul>
+        {% endif %}
+
+      </div>
+    </div>
