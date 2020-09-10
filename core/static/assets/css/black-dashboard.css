@@ -1,4 +1,4 @@
-/*!
+!
 
 =========================================================
 * Black Dashboard - v1.0.1
@@ -17,6 +17,13 @@
 */
 /*     brand Colors              */
 /* navbar color */
+
+
+
+
+
+
+
 :root {
   --blue: #5e72e4;
   --indigo: #5603ad;
@@ -20442,4 +20449,4 @@ Copyright (c) 2015 Daniel Eden
   padding-right: 0;
 }
 
-/*# sourceMappingURL=dashboard-free.css.map */
+/*# sourceMappingURL=dashboard-free.css.map

@@ -5,6 +5,11 @@
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
+
+
+
+
+
 {% block content %}
 
     <div class="row">
@@ -109,16 +114,18 @@
         <div class="card card-chart">
           <div class="card-header">
 {#            <h5 class="card-category">Daily Sales</h5>#}
-            <h3 class="card-title"><i class="tim-icons icon-delivery-fast text-info"></i>熱圖</h3>
-                    <img src="/static/assets/img/heatmap37.jpg" style="display:block; margin:auto;" />
+            <h3 class="card-title"><i class="tim-icons icon-delivery-fast text-info"></i>熱圖{{test}}</h3>
+                    
 {#              <img src="圖" style="display:block; margin:auto;" /> #}
           </div>
+          
+          <div class="card-body">
+            <div class="chart-area" style="display:flex; justify-content: center;">
+              {#<canvas id="CountryChart"></canvas>#}
+              <img class="img-resize" style="width:50%" src="/static/assets/img/heatmap37.jpg" />
+            </div>
           </div>
-{#          <div class="card-body">#}
-{#            <div class="chart-area">#}
-{#              <canvas id="CountryChart"></canvas>#}
-{#            </div>#}
-{#          </div>#}
+        </div>
       </div>
         </div>
         </div>
